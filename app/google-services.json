@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "463057927288",
+    "firebase_url": "https://doodlefirebase-51dfe.firebaseio.com",
+    "project_id": "doodlefirebase-51dfe",
+    "storage_bucket": "doodlefirebase-51dfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463057927288:android:a193b25a452df8f319018d",
+        "android_client_info": {
+          "package_name": "com.dodlebee.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463057927288-dsilb3th9uqrlgg3ijk3qtshm6mm3u37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dodlebee.firebasetest",
+            "certificate_hash": "78a57b015dda3ae79e25507c8b123f0555478b7d"
+          }
+        },
+        {
+          "client_id": "463057927288-6qms6e91rvu6sqen1ul0ju0gsrno2kdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM1myPyeNPqRRBz1FjO3LqSipNUSWxE4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463057927288-6qms6e91rvu6sqen1ul0ju0gsrno2kdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
