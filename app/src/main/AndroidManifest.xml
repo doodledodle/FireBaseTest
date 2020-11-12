@@ -12,6 +12,7 @@
         <activity android:name=".authentication.LoginActivity"/>
         <activity android:name=".function.GridLayout"/>
         <activity android:name=".dynamiclinks.DynamicLinks" />
+        <activity android:name=".cloudfirestore.CloudFireStore" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

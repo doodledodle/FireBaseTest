@@ -105,10 +105,8 @@ class LoginActivity : AppCompatActivity() {
     fun toMainActivity(user: FirebaseUser?) {
         if(user !=null) { // MainActivity 로 이동
 //            startActivity(Intent(this, MainActivity::class.java))
-            startActivity<MainActivity>()
+//            startActivity<MainActivity>()
             finish()
-
-
         }
     } // toMainActivity End
 
@@ -127,6 +125,7 @@ class LoginActivity : AppCompatActivity() {
         // Google sign out
         googleSignInClient.signOut().addOnCompleteListener(this) {
             //updateUI(null)
+            finish()
         }
     }
 
