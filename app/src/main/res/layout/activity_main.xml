@@ -53,4 +53,52 @@
         app:layout_constraintTop_toBottomOf="@id/button_GoogleLogin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:theme="@style/MyButtonTheme"
+        android:id="@+id/button_KaKaoMap"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:text="카카오 지도"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/button_CloudFireStore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:theme="@style/MyButtonTheme"
+        android:id="@+id/button_NaverLogin"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:text="네이버 로그인"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/button_CloudFireStore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:theme="@style/MyButtonTheme"
+        android:id="@+id/button_Storage_API30"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:text="저장소 접근"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/button_NaverLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:theme="@style/MyButtonTheme"
+        android:id="@+id/button_WebSocket"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:text="웹소켓 테스트"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/button_Storage_API30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

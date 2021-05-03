@@ -3,21 +3,17 @@ package com.dodlebee.firebasetest.authentication
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.dodlebee.firebasetest.MainActivity
 import com.dodlebee.firebasetest.R
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
-import com.google.android.gms.common.SignInButton
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import kotlinx.android.synthetic.main.activity_login.*
-import org.jetbrains.anko.startActivity
 
 class LoginActivity : AppCompatActivity() {
     private val TAG = "LoginActivity"
@@ -116,7 +112,6 @@ class LoginActivity : AppCompatActivity() {
         startActivityForResult(signInIntent, RC_SIGN_IN)
     }
     // signIn End
-
 
     private fun signOut() { // 로그아웃
         // Firebase sign out
